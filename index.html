@@ -12,27 +12,28 @@
     <aside class="sidebar">
       <header class="identity">
         <div class="monogram" aria-hidden="true">MH</div>
-        <p class="eyebrow">Hồ sơ cá nhân</p>
+        <p class="eyebrow">Sinh viên IT</p>
         <h1>LÝ <br>Minh Hoan</h1>
-        <p class="role">[Vị trí ứng tuyển / chuyên ngành]</p>
+        <p class="role">Công nghệ thông tin<br>Ứng tuyển thực tập [vị trí]</p>
       </header>
 
       <section class="side-section" aria-labelledby="contact-title">
         <h2 id="contact-title">Liên hệ</h2>
         <dl class="contact-list">
           <div><dt>Email</dt><dd><a href="mailto:hoanbpm@gmail.com">hoanbpm@gmail.com</a></dd></div>
-          <div><dt>Điện thoại</dt><dd>+84 9xx xxx xxx</dd></div>
+          <div><dt>Điện thoại</dt><dd>[Số điện thoại]</dd></div>
           <div><dt>Địa chỉ</dt><dd>CAO BẰNG</dd></div>
-          <div><dt>GitHub / Portfolio</dt><dd><a href="https://github.com/">github.com/ten-cua-ban</a></dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/ten-cua-ban">github.com/ten-cua-ban</a></dd></div>
         </dl>
       </section>
 
       <section class="side-section" aria-labelledby="skills-title">
-        <h2 id="skills-title">Kỹ năng</h2>
+        <h2 id="skills-title">Kỹ năng kỹ thuật</h2>
         <ul class="skill-list">
-          <li><span>[Kỹ năng chuyên môn]</span><span class="skill-level">[Mức độ]</span></li>
-          <li><span>[Công cụ / công nghệ]</span><span class="skill-level">[Mức độ]</span></li>
-          <li><span>[Kỹ năng mềm]</span><span class="skill-level">[Mức độ]</span></li>
+          <li><span class="skill-category">Ngôn ngữ</span><span>[Java, Python, JavaScript…]</span></li>
+          <li><span class="skill-category">Web / framework</span><span>[HTML, CSS, React…]</span></li>
+          <li><span class="skill-category">Cơ sở dữ liệu</span><span>[MySQL, SQL Server…]</span></li>
+          <li><span class="skill-category">Công cụ</span><span>[Git, GitHub, VS Code…]</span></li>
         </ul>
       </section>
 
@@ -45,55 +46,63 @@
 
     <div class="content">
       <section class="intro" aria-labelledby="about-title">
-        <p class="eyebrow">Curriculum vitae <span> / </span> 2026</p>
-        <h2 id="about-title">Giới thiệu</h2>
-        <p class="summary">[Viết 2–3 câu về chuyên môn, thế mạnh và mục tiêu nghề nghiệp phù hợp với vị trí ứng tuyển.]</p>
-        <figure class="intro-visual">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Không gian làm việc với máy tính và mã nguồn">
-          <figcaption>DESIGN <span>·</span> BUILD <span>·</span> LEARN</figcaption>
+        <p class="eyebrow">IT student <span>/</span> 2026</p>
+        <h2 id="about-title">Mục tiêu nghề nghiệp</h2>
+        <p class="summary">Sinh viên năm [mấy] ngành Công nghệ thông tin tại [tên trường], quan tâm đến [lập trình web / phần mềm / lĩnh vực bạn theo đuổi]. Mong muốn ứng tuyển vị trí thực tập [vị trí] để vận dụng kiến thức, phát triển kỹ năng chuyên môn và đóng góp vào các dự án thực tế.</p>
+        <button class="print-button" type="button" onclick="window.print()">In / Lưu CV dạng PDF</button>
+        <figure class="intro-visual" role="img" aria-label="Minh họa trình soạn thảo mã nguồn">
+          <div class="editor-bar"><span></span><span></span><span></span><b>portfolio.js</b></div>
+          <div class="editor-code" aria-hidden="true">
+            <p><span>01</span><code><i>const</i> student = {</code></p>
+            <p><span>02</span><code>&nbsp; major: <em>"Information Technology"</em>,</code></p>
+            <p><span>03</span><code>&nbsp; focus: <em>"keep learning"</em>,</code></p>
+            <p><span>04</span><code>&nbsp; projects: <i>[]</i></code></p>
+            <p><span>05</span><code>};</code></p>
+          </div>
+          <figcaption>LEARN <span>·</span> BUILD <span>·</span> IMPROVE</figcaption>
         </figure>
       </section>
 
       <section class="main-section" aria-labelledby="education-title">
         <div class="section-heading"><span class="section-number">01</span><h2 id="education-title">Học vấn</h2></div>
         <article class="entry">
-          <div class="entry-meta"><span>[Năm bắt đầu] — [Dự kiến tốt nghiệp]</span><span>[Thành phố]</span></div>
-          <h3>[Tên trường / cơ sở đào tạo]</h3>
-          <p class="entry-subtitle">Công nghệ thông tin · [Tên chuyên ngành nếu có]</p>
-          <p>Bổ sung GPA, môn học tiêu biểu hoặc thành tích học tập phù hợp với vị trí ứng tuyển.</p>
+          <div class="entry-meta"><span>[Năm bắt đầu] — [Dự kiến tốt nghiệp]</span><span>[Tỉnh / thành phố]</span></div>
+          <h3>[Tên trường đại học / cao đẳng]</h3>
+          <p class="entry-subtitle">Công nghệ thông tin · [Chuyên ngành nếu có]</p>
+          <p>GPA: [x.xx/4.00] · Môn học liên quan: [Cấu trúc dữ liệu, Cơ sở dữ liệu, Lập trình hướng đối tượng…]</p>
         </article>
       </section>
 
       <section class="main-section" aria-labelledby="projects-title">
-        <div class="section-heading"><span class="section-number">02</span><h2 id="projects-title">Dự án tiêu biểu</h2></div>
+        <div class="section-heading"><span class="section-number">02</span><h2 id="projects-title">Dự án cá nhân &amp; học tập</h2></div>
         <article class="entry">
-          <div class="entry-meta"><span>[Tháng / năm]</span><span>[Cá nhân / nhóm]</span></div>
-          <h3>[dự án ma]</h3>
-          <p class="entry-subtitle">[Vai trò] · [Công nghệ sử dụng]</p>
+          <div class="entry-meta"><span>[Tháng / năm bắt đầu — kết thúc]</span><span>[Cá nhân / nhóm]</span></div>
+          <h3>[Tên dự án: ví dụ website quản lý / ứng dụng di động]</h3>
+          <p class="entry-subtitle">[Vai trò] · [Ngôn ngữ, framework, cơ sở dữ liệu]</p>
           <ul class="detail-list">
-            <li>Mô tả ngắn mục tiêu của dự án và vấn đề dự án giải quyết.</li>
-            <li>Nêu phần việc bạn trực tiếp thực hiện và kết quả có thể đo lường.</li>
+            <li>Xây dựng [tính năng bạn phụ trách] để giải quyết [nhu cầu / vấn đề].</li>
+            <li>Áp dụng [công nghệ / kỹ thuật]; nêu kết quả cụ thể hoặc liên kết demo và mã nguồn.</li>
           </ul>
         </article>
         <article class="entry">
-          <div class="entry-meta"><span>[Tháng / năm]</span><span>[Cá nhân / nhóm]</span></div>
-          <h3>[Tên dự án hoặc bài tập nổi bật]</h3>
+          <div class="entry-meta"><span>[Tháng / năm]</span><span>[Môn học / cá nhân / nhóm]</span></div>
+          <h3>[Tên dự án thứ hai]</h3>
           <p class="entry-subtitle">[Vai trò] · [Công nghệ sử dụng]</p>
-          <p>[Một hoặc hai câu về đóng góp, kết quả và điều bạn học được.]</p>
+          <p>[Mô tả ngắn phần bạn trực tiếp thực hiện, kết quả đạt được và bài học kỹ thuật.]</p>
         </article>
       </section>
 
       <section class="main-section" aria-labelledby="experience-title">
-        <div class="section-heading"><span class="section-number">03</span><h2 id="experience-title">Kinh nghiệm &amp; hoạt động</h2></div>
+        <div class="section-heading"><span class="section-number">03</span><h2 id="experience-title">Hoạt động &amp; thành tích</h2></div>
         <article class="entry">
           <div class="entry-meta"><span>[Thời gian]</span><span>[Địa điểm]</span></div>
-          <h3>[Vai trò / hoạt động / công việc]</h3>
-          <p class="entry-subtitle">[Tổ chức hoặc đơn vị]</p>
-          <p>[Mô tả trách nhiệm, kỹ năng đã rèn luyện hoặc kết quả nổi bật. Nếu chưa có kinh nghiệm làm việc, hãy ghi hoạt động câu lạc bộ, tình nguyện hoặc dự án cá nhân.]</p>
+          <h3>[Câu lạc bộ, cuộc thi, hoạt động tình nguyện hoặc khóa học]</h3>
+          <p class="entry-subtitle">[Vai trò] · [Đơn vị tổ chức]</p>
+          <p>[Nêu đóng góp cụ thể, kết quả hoặc kỹ năng phối hợp / giao tiếp đã rèn luyện.]</p>
         </article>
       </section>
 
-      <footer class="resume-footer"><span>Lý Minh Hoan</span><span>CV · 2026</span></footer>
+      <footer class="resume-footer"><span>Lý Minh Hoan</span><span>Sinh viên Công nghệ thông tin · 2026</span></footer>
     </div>
   </main>
 </body>
